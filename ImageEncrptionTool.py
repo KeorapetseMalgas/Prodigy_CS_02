@@ -33,6 +33,6 @@ class ImageEncryptionTool:
 
 
 if __name__ == "__main__":
-    tool = ImageEncryptionTool(key=50)  # Use a simple key
+    tool = ImageEncryptionTool(key=50)  
     tool.encrypt("original_image.png", "encrypted_image.png")
     tool.decrypt("encrypted_image.png", "decrypted_image.png")
